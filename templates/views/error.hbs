@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{>headerlink}}
+</head>
+<body>
+    <!---Navbar-->
+    {{>navbar}}
+    <!---Main Header-->
+    <div class="container-fluid main_header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+                    <div class="col-md-6 col-12 mx-auto main_header_left align-items-center">
+                        <figure>
+                            <img src="Images/1.jpg.webp" alt="404 image" class="img-fluid errimg">
+                        </figure>
+                        <p>Welcome to my Weather App</p>
+                        <h1>{{errorMsg}}</h1>
+                        <a href="/" target="_manas"><button>Go Back</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{>headerlink}}
+</head>
+<body>
+    <!---Navbar-->
+    {{>navbar}}
+    <!---Main Header-->
+    <div class="container-fluid main_header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="main_content">
+                    <form class="temp_form">
+                        <input type="text" id="cityName" placeholder="Enter Your City name" autocomplete="off">
+                        <Input type="submit" id="submitBtn" value="search">
+                    </form>
+                </div>
+                <div class="tempInformation">
+                    <div class="top_layer">
+                        <p id="day">Tuesday</p>
+                        <p id="today_date">13 Oct</p>
+                    </div>
+                    <div class="main_layer">
+                        <p id="city_name">Get Your Output</p>
+                        <div class="middle_layer">
+                            <p id="temp"><span>0</span><sup>o</sup>C</p>
+                            <p id="temp_status"><i class="fa fa-cloud" aria-hidden="true"></i></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
